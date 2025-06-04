@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="./js.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <h1>Busque a raça de cachorro</h1>
+        <div class="topo_main">
+            <input autocomplete="off" class="input_busca" id="search_buscar" type="text" placeholder="Buscar">
+            <div>
+                <button class="bt_nome">nome</button>
+                <button class="bt_nivel_ameaca">nivel_ameaca</button>
+                <button class="bt_nivel_letalidade">nivel_letalidade</button>
+                <button class="bt_peso_medio">peso_medio</button>
+                <button class="bt_nacionalidade">nacionalidade</button>
+            </div>
+        </div>
+        <section id="dogs" class="racas"></section>
+    </main>
+
+    <label for="box">
+        <input class="box" id="box" type="checkbox" checked="true">
+        <section class="modal_out">
+            <div class="modal_in">
+                <img id="foto" src="./racas/airedale_terrier.jpg">
+            </div>
+        </section>
+    </label>
+</body>
+
+</html>

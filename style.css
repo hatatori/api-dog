@@ -1,0 +1,152 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    /* -webkit-user-select: none; */
+    /* -ms-user-select: none; */
+    /* user-select: none; */
+}
+
+main {
+    /* text-align: center; */
+    width: 1500px;
+    max-width: 100%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: solid 1px crimson;
+    margin: 10px auto;
+    color: crimson;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    border: solid 1px crimson;
+    margin: 10px auto;
+    color: crimson;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.racas {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    box-shadow: 3px 3px 10px #00000055;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    background-image: linear-gradient(crimson 100px, transparent 0px);
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+hr{
+    border: none;
+    border-bottom: solid 1px crimson;
+}
+
+.card-top {
+    /* text-align: center; */
+}
+
+/* .card-top:hover{
+    scale: 1.3;
+    translate: 0 -30px;
+} */
+
+.card img {
+    width: 100%;
+    /* border: solid 10px crimson;  */
+    /* border: solid 10px yellow;  */
+    border-radius: 20%;
+    padding: 20px;
+    z-index: -1;
+}
+
+.card:hover img {
+    cursor: pointer;
+    /* border-radius: 10%; */
+    /* scale: 1.1; */
+    /* border: solid 10px crimson;  */
+    /* box-shadow: 0px 0px 0px 10px crimson; */
+    /* padding: 0px; */
+    /* z-index: 3; */
+
+    /* scale: 1.1; */
+    /* translate: 0 -30px; */
+}
+
+.card h5 {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.card p {
+    padding: 10px 20px 0px 20px ;
+}
+
+/* .racas img {
+    width: 100%;
+} */
+
+/* modal */
+.modal_out {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #00000055;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_in{
+    max-width: 90%;
+    margin: auto;
+    background-color: red;
+    width: auto;
+    display: flex;
+}
+.modal_in img{
+    max-width: 100%;
+}
+
+.box {
+    display: none;
+}
+
+.box:checked+* {
+    display: none;
+}
+
+.input_busca{
+    padding: 10px;
+    margin: 10px ;
+}
+
+.topo_main{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    /* box-shadow: 0px 0px 10px #00000055; */
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
