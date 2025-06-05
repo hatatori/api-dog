@@ -586,7 +586,7 @@ const lista = [
     },
     {
         nome: "Keeshond",
-        imagem: "./racas/Keeshond.jpg",
+        imagem: "./racas/keeshond.jpg",
         nivel_ameaca: 2,
         nivel_letalidade: 1,
         descricao: "Cão amigável, inteligente e alerta, ótimo para famílias.",
